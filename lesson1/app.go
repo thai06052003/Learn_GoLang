@@ -1,9 +1,7 @@
 package main
 
 import (
-	"bufio"
 	"fmt"
-	"os"
 )
 
 var address = "HCM"
@@ -24,17 +22,20 @@ func main() {
 	// fmt.Println(tiengviet)
 	// fmt.Println(tunhien)
 
-	var hoten string
+	// var hoten string
 
-	fmt.Println("Vui long nhap ho ten: ")
+	// fmt.Print("Vui long nhap ho ten: ")
 
 	//fmt.Scan(&hoten)
 
-	scanner := bufio.NewScanner(os.Stdin)
+	// scanner := bufio.NewScanner(os.Stdin)
 
-	if (scanner.Scan()) {
-		hoten =  scanner.Text()
-	}
+	// if (scanner.Scan()) {
+	// 	hoten =  scanner.Text()
+	// }
 
-	fmt.Println("Ho ten: ", hoten)
+	// fmt.Println("Ho ten:", hoten)
+
+	const MONAN string = "Com tam"
+	fmt.Println(MONAN)
 }
